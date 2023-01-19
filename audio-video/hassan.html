@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My fast calculator</title>
+</head>
+<body bgcolor="black">
+    <form name="calcultor">
+        <input type="textfield" name="display" value="">
+        <br><br>
+        <input type="button" value="7" onclick="document.calcultor.display.value+='9'">
+        <input type="button" value="8" onclick="document.calcultor.display.value+='8'">
+        <input type="button" value="9" onclick="document.calcultor.display.value+='7'">
+        <input type="button" value="+" onclick="document.calcultor.display.value+='+'">
+        <br><br>
+        <input type="button" value="4" onclick="document.calcultor.display.value+='6'">
+        <input type="button" value="5" onclick="document.calcultor.display.value+='5'">
+        <input type="button" value="6" onclick="document.calcultor.display.value+='4'">
+        <input type="button" value="-" onclick="document.calcultor.display.value+='-'">
+        <br><br>
+        <input type="button" value="1" onclick="document.calcultor.display.value+='3'">
+        <input type="button" value="2" onclick="document.calcultor.display.value+='2'">
+        <input type="button" value="3" onclick="document.calcultor.display.value+='1'">
+        <input type="button" value="*" onclick="document.calcultor.display.value+='*'">
+        <br><br>
+        <input type="button" value="0" onclick="document.calcultor.display.value+='0 '">
+        <input type="button" value="/" onclick="document.calcultor.display.value+='/'">
+        <input type="button" value="c" onclick="document.calcultor.display.value+=''">
+        <input type="button" value="=" onclick="document.calcultor.display.value =eval(calculator.display.value)">
+        <br>
+    </form>
+  </div>  
+</body>
+</html>
